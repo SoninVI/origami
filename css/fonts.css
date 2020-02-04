@@ -1,0 +1,37 @@
+@font-face {
+		font-family: "intro";
+		src: url("../fonts/intro/Intro.eot");
+		src: url("../fonts/intro/Intro.eot?#iefix")format("embedded-opentype"),
+		url("../fonts/intro/Intro.woff") format("woff"),
+		url("../fonts/intro/Intro.ttf") format("truetype");
+		font-style: normal;
+		font-weight: normal;
+}
+@font-face {
+		font-family: "miriadproregular";
+		src: url("../fonts/miriadproregular/MyriadPro-Regular.eot");
+		src: url("../fonts/miriadproregular/MyriadPro-Regular.eot?#iefix")format("embedded-opentype"),
+		url("../fonts/miriadproregular/MyriadPro-Regular.woff") format("woff"),
+		url("../fonts/miriadproregular/MyriadPro-Regular.ttf") format("truetype");
+		font-style: normal;
+		font-weight: normal;
+}
+@font-face {
+		font-family: "opensans";
+		src: url("../fonts/opensans/OpenSans.eot");
+		src: url("../fonts/opensans/OpenSans.eot?#iefix")format("embedded-opentype"),
+		url("../fonts/opensans/OpenSans.woff") format("woff"),
+		url("../fonts/opensans/OpenSans.ttf") format("truetype");
+		font-style: normal;
+		font-weight: normal;
+}
+
+@font-face {
+		font-family: "font-awesome";
+		src: url("../libs/font-awesome/fonts/fontawesome-webfont.eot");
+		src: url("../libs/font-awesome/fonts/fontawesome-webfont.eot?#iefix")format("embedded-opentype"),
+		url("../libs/font-awesome/fonts/fontawesome-webfont.woff") format("woff"),
+		url("../libs/font-awesome/fonts/fontawesome-webfont.ttf") format("truetype");
+		font-style: normal;
+		font-weight: normal;
+}
