@@ -211,15 +211,15 @@ h2 {
   font-size: 11px;
   margin-bottom: 23px;
 }
-.trade-offer h1 {
+.trade-offer p.titlle {
   font-size: 27px;
   margin-bottom: 42px;
 }
-.trade-offer h1 span {
+.trade-offer p.titlle span {
   color: #e58b20;
   margin-right: 10px;
 }
-.trade-offer h1 b {
+.trade-offer p.titlle b {
   font-size: 31px;
   margin-right: 10px;
 }
@@ -788,10 +788,11 @@ h2 {
   margin-top: 10px;
 }
 .coment-main {
-  font-family: "opensans";
+  font-family: "miriadproregular";
 }
 .coment-main a {
   font-size: 11px;
+  font-family: "opensans";
 }
 .coment-main--reviews {
   display: -webkit-flex;
