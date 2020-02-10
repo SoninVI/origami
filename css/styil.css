@@ -12,6 +12,7 @@
 }
 body {
   font-family: "intro", sans-serif;
+  min-width: 537px;
 }
 img {
   max-width: 100%;
@@ -35,7 +36,6 @@ button {
 }
 .wrapper {
   max-width: 960px;
-  min-width: 320px;
   margin: 0 auto;
   padding-left: 10px;
   padding-right: 10px;
@@ -85,7 +85,7 @@ h2 {
   background-position: center;
 }
 .header {
-  box-shadow: 0 0 2px #989293;
+  box-shadow: 0px 2px 0px 0px #989293;
 }
 .menu {
   display: -webkit-flex;
@@ -101,6 +101,9 @@ h2 {
 .menu .menu-logo {
   max-width: 107px;
   margin-right: 33px;
+}
+.hamburger {
+  display: none;
 }
 .menu-nav {
   width: 100%;

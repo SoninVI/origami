@@ -1,3 +1,17 @@
+  $(document).ready(function() {
+  $(".header").on('click', '.hamburger', function() {
+    $(".menu-nav--bar").toggleClass("menu_show");
+  });
+  });
+    $(document).ready(function() {
+  $(".header").on('click', '.hamburger_1', function() {
+    $(".menu-nav--bar").toggleClass("menu_show");
+  });
+  });
+
+   
+  
+
 $('.flip-demo').on('done', function() {
   console.log('doooooonnnnnee!');
 });

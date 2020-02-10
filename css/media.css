@@ -50,6 +50,9 @@
 		-o-flex-direction: column;
 		flex-direction: column;
 	}
+	.menu-nav--contact a{
+		flex-shrink: 0;
+	}
 	.menu>.menu-nav--contact:first-child .{
 		order: 2;
 	}
@@ -125,8 +128,101 @@
 @media only screen and (max-width: 768px){
 	
 	.wrapper{
-		max-width: 603px;
+		max-width: 540px;
 	}
+	.hamburger{
+		display: block;
+	}
+	.menu-nav--bar{
+		display: -webkit-flex;
+		display: -moz-flex;
+		display: -ms-flex;
+		display: -o-flex;
+		display: flex;
+		-webkit-flex-direction: column;
+		-moz-flex-direction: column;
+		-ms-flex-direction: column;
+		-o-flex-direction: column;
+		flex-direction: column;
+		width: 540px;
+		margin: 0 auto;
+		z-index: 9999;
+		position: absolute;
+		left: 0;
+	    right: 0;
+	   	top: -100%;
+		opacity: 0;
+		transition: opacity 1.0s ease-in-out,
+					top .1s ease-in-out 1.0s;
+	}
+	.menu_show{
+		top: 121px !important;
+	    transition: all .5s ease-in-out;
+	    left: 0;
+	    right: 0;
+	    width: 100%;
+	    opacity: 1;
+	    width: 540px;
+		margin: 0 auto;
+	    transition: opacity 1.0s ease-in-out;
+	}
+	.menu{
+		display: -webkit-flex;
+		display: -moz-flex;
+		display: -ms-flex;
+		display: -o-flex;
+		display: flex;
+		flex-direction: row;
+
+	}
+	.menu-logo{
+		flex-shrink: 0;
+		margin-right: 15px;
+	}
+	.menu-nav{
+		display: -webkit-flex;
+		display: -moz-flex;
+		display: -ms-flex;
+		display: -o-flex;
+		display: flex;
+		-webkit-flex-direction: row;
+		-moz-flex-direction: row;
+		-ms-flex-direction: row;
+		-o-flex-direction: row;
+		flex-direction: row;
+		-ms-align-items: center;
+		align-items: center;
+	}
+	.menu-nav--bar ul{
+		-webkit-flex-direction: column;
+		-moz-flex-direction: column;
+		-ms-flex-direction: column;
+		-o-flex-direction: column;
+		flex-direction: column;
+		text-align: center;
+		padding: 20px;
+		width: 50%;
+  		margin: 0 auto;
+	}
+	.menu-nav--contact{
+	-webkit-flex-direction: column-reverse;
+	-moz-flex-direction: column-reverse;
+	-ms-flex-direction: column-reverse;
+	-o-flex-direction: column-reverse;
+	flex-direction: column-reverse;
+	text-align: center;
+	}
+	.menu-nav--contact>a{
+		display: block;
+		width: 100%;
+	}
+	.menu_icon{
+		color: #f7e034;
+	}
+	.menu_icon .fa-bars{
+		font-size: 52px;
+	}
+
 	.cm-col-1x{
 		width: 100%
 	}
@@ -151,15 +247,23 @@
 		padding-left: 15px;
 		margin-right: 0;
 	}
+	.menu-nav--bar-footer{
+		display: none;
+	}
 }
 
-@media only screen and (max-width: 560px){
+/*@media only screen and (max-width: 560px){
 	
 	.wrapper{
-		width:452px;
+		min-width:360px;
 
 	}
+	.menu{
+		min-width: 360px;
+		margin: 0 auto; 
+	}
+	
 	
 }
-
+*/
 
